@@ -41,7 +41,8 @@ $ git init
 ## Understand HOW Git Track File Status
 Git tracks the lifecycle of files in three primary stages: modified, staged and commited. Understanding these stages will help you better manage your code and work effectively in version control.
 
-1. Mofified (Unstaged)
+1. **Mofified (Unstaged)**
+
 When a file is modified (shown as M in Git), it means you've made changes to the file, but those changes have not yet been staged or commited. The file is stil in your working directory, and Git is aware of the changes but has not done anything with them yet.
 
 ```bash
@@ -62,7 +63,8 @@ When we have add a new U (untracked) file
 U  newfile.txt
 ```
 
-2. Staged (Ready to be Commited)
+2. **Staged (Ready to be Commited)**
+
 When you stage a file, it means you are telling Git that you're ready to include the changes in the next commit. This is done with the git add command.
 Staging prepares the file changes, but they are not yet committed. Think of this as a "pre-commit" stage where Git is ready to track the changes.
 
@@ -83,7 +85,8 @@ Staged new file
 A  newfile.txt
 ```
 
-3. Commited (Confirmed - Saved to Local Repository)
+3. **Commited (Confirmed - Saved to Local Repository)**
+
 Once the changes are committed, they are stored in Git's local repository, and the file is now officially part of the project's version history. Committing a file is akin to taking a snapshot of the current state of your project.
 
 ```bash
